@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 3 - Advanced Styling & JS</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+
+<body>
+
+<h1>ApexPlanet Task 3</h1>
+
+<!-- Quiz Section -->
+<div class="quiz-box">
+    <h2>Simple Quiz</h2>
+
+    <p id="question">1. What does HTML stand for?</p>
+
+    <button onclick="checkAnswer('A')">A. Hyper Text Markup Language</button>
+    <button onclick="checkAnswer('B')">B. High Text Machine Language</button>
+    <button onclick="checkAnswer('C')">C. Hyper Tool Multi Language</button>
+    <button onclick="checkAnswer('D')">D. None of these</button>
+
+    <p id="result"></p>
+
+    <p id="question2">2. Which language is used to make websites intactive?</p>
+
+    <button onclick="checkAnswer2('A')">A. HTML </button>
+    <button onclick="checkAnswer2('B')">B. CSS</button>
+    <button onclick="checkAnswer2('C')">C. JavaScript</button>
+    <button onclick="checkAnswer2('D')">D.SQL</button>
+
+    <p id="result2"></p>
+
+    <p id="question3">3. CSS stand for?</p>
+
+    <button onclick="checkAnswer3('A')">A. Cascading Style Sheet</button>
+    <button onclick="checkAnswer3('B')">B. Computer Style Sheet</button>
+    <button onclick="checkAnswer3('C')">C. Creative Style System</button>
+    <button onclick="checkAnswer3('D')">D. None of the above</button>
+
+    <p id="result3"></p>
+
+
+</div>
+
+<!-- API Section -->
+<div class="api-box">
+    <h2>Random Joke (API)</h2>
+    <button onclick="getJoke()">Get Joke</button>
+    <p id="joke"></p>
+</div>
+
+<script src="script3.js"></script>
+
+</body>
+</html>

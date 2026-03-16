@@ -1,0 +1,46 @@
+body{
+    font-family: Arial;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1{
+    background: teal;
+    color: white;
+    padding: 15px;
+}
+
+.quiz-box, .api-box{
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: teal;
+    color: white;
+}
+
+/* Responsive Design */
+
+@media (max-width:850px){
+
+    body{
+        background-color: #e0f7fa;
+    }
+
+    button{
+        width: 80%;
+    }
+
+}
