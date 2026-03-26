@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(224, 209, 211);
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(27, 8, 235);
+    font-weight: bold;
+}
+
+section {
+    margin: 30px;
+    padding: 30px;
+    background: rgb(167, 208, 229);
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px;
+}
+
+input {
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}

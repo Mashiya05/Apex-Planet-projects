@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Full Project</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+
+    <h1>My Portfolio Website</h1>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#todo">To-Do</a>
+        <a href="#products">Products</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am learning Full Stack Development at ApexPlanet.</p>
+    </section>
+
+    <!-- To-Do Section -->
+    <section id="todo">
+        <h2>To-Do List</h2>
+
+        <input type="text" id="task" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+
+        <ul id="list"></ul>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email:mashiya47@gmail.com</p>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products">
+        <h2>Products</h2>
+
+        <select onchange="filterProducts(this.value)">
+            <option value="all">All</option>
+            <option value="low">Below 500</option>
+            <option value="high">Above 500</option>
+        </select>
+
+        <button onclick="sortProducts()">Sort by Price</button>
+
+        <ul id="productList"></ul>
+    </section>
+
+    <script src="script4.js"></script>
+</body>
+</html>
